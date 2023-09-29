@@ -1,0 +1,135 @@
+/* body {
+    background: white;
+    color: #222222;
+    max-width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+article + article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
+} */
+
+.name-phone {
+    width: 30%;
+    overflow: hidden;
+}
+.mbps-bill {
+    width: 20%;
+}
+.email-loc {
+    width: 30%;
+}
+.edit-delet {
+    width: 20%;
+}
+
+#all_icon {
+    font-size: 20px;
+    margin-right: 15px;
+}
+#location-icon {
+    font-size: 25px;
+    margin-right: 20px;
+}
+#edit-btn {
+    /* background: rgba(73, 204, 73);
+    color: white;
+    border: none; */
+    cursor: pointer;
+}
+
+#trash-btn {
+    /* background: #ff6f47;
+    color: white;
+    border: none; */
+    cursor: pointer; 
+}
+.banner{
+    background: #ff6f47;
+}
+
+
+/* Banner css from jahidl islam 2.0 */
+
+.slider-part{
+	background: url(/images/1.jpg) fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* background-position: 40% -107.667px; */
+}
+
+.slider-part .bnr-overlay{
+    background: rgba(0, 0, 0, 0.3);
+	padding: 88px 0px;
+}
+.slider-part .bnr-con1 h1{
+	padding-top: 80px;
+	font-size: 50px;
+	font-weight: 700;
+    padding-bottom: 30px;
+}
+.slider-part .bnr-con2 p{
+    width: 50%;
+    margin: auto;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    margin-bottom: 100px;
+    outline: none;
+}
+#bnrBt{
+    background:  #ff6f47;
+    color: #000;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 80px;
+    transition: all linear .3s;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 600;
+}
+#bnrBt:hover{
+    background: #3B82F6;
+    color: #fff;
+}
+
+
+
+/* Setting css */
+
+.navsetting-hedding{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 700;
+    font-size: 20px;;
+}
+.setting-nav ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.setting-nav ul li a{
+    padding: 20px 20px;
+    font-weight: 700;
+}
+.setting-containt ul li{
+    padding-bottom: 20px;
+}
